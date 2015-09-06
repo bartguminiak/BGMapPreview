@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "BGMapPreview"
   s.version          = "0.4.5"
-  s.summary          = "Category on UIImageView for displaying Apple map preview based on POI input"
+  s.summary          = "BGMapPreview is a category on UIImageView for iOS to create and set map preview image asynchronously."
   s.homepage         = "https://github.com/bartguminiak/BGMapPreview"
   s.license          = 'MIT'
   s.author           = { "Bartlomiej Guminiak" => "guminiak.bartlomiej@gmail.com" }
