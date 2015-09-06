@@ -1,0 +1,6 @@
+framework module BGMapPreview {
+  umbrella header "Pods-BGMapPreview_Tests-BGMapPreview-umbrella.h"
+
+  export *
+  module * { export * }
+}

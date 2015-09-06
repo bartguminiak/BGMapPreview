@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BGMapPreview_Example', :exclusive => true do
+  pod "BGMapPreview", :path => "../"
+end
+
+target 'BGMapPreview_Tests', :exclusive => true do
+  pod "BGMapPreview", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end

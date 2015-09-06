@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Bartlomiej/El Projects/BGMapPreview/Example/build/Debug-iphoneos/Pods-BGMapPreview_Example/BGMapPreview.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BGMapPreview-Swift.h",
+          'external-contents': "/Users/Bartlomiej/El Projects/BGMapPreview/Example/build/Debug-iphoneos/Pods-BGMapPreview_Example/BGMapPreview.framework/Headers/BGMapPreview-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods-BGMapPreview_Example-BGMapPreview-umbrella.h",
+          'external-contents': "/Users/Bartlomiej/El Projects/BGMapPreview/Example/Pods/Target Support Files/Pods-BGMapPreview_Example-BGMapPreview/Pods-BGMapPreview_Example-BGMapPreview-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+BGMapPreview.h",
+          'external-contents': "/Users/Bartlomiej/El Projects/BGMapPreview/Pod/Classes/UIImageView+BGMapPreview.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Bartlomiej/El Projects/BGMapPreview/Example/build/Debug-iphoneos/Pods-BGMapPreview_Example/BGMapPreview.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Bartlomiej/El Projects/BGMapPreview/Example/build/Pods.build/Debug-iphoneos/Pods-BGMapPreview_Example-BGMapPreview.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
