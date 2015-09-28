@@ -15,7 +15,7 @@
 * Built on top of MKMapView
 * Built-in caching for better performance
 * Built-in operation cancellation for better UX (ex. reusable objects)
-* Compatible with iOS 7, 8
+* Compatible with iOS 7, 8 and 9
 
 ## Installation
 
@@ -71,7 +71,7 @@ locationDescriptor.annotationView = annotationView;
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod `install from the Example directory first.
+To run the example project, clone the repo, and run example target.
 
 
 ## Authors
