@@ -1,15 +1,8 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+platform :ios, '8.0'
 
-target 'BGMapPreview_Example', :exclusive => true do
-  pod "BGMapPreview", :path => "../"
-end
+target 'BGMapPreview_Example' do
+    use_frameworks!
+    
+    pod 'BGMapPreview'
 
-target 'BGMapPreview_Tests', :exclusive => true do
-  pod "BGMapPreview", :path => "../"
-
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
 end

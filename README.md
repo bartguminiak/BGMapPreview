@@ -6,8 +6,8 @@
 
 ## BGMapPreview is a category on UIImageView for iOS to create and set map preview image asynchronously.
 
-<img src = "Images/Example_1.png" width = "30%" height = "30% align="middle""/>
-<img src = "Images/Example_2.gif" width = "30%" height = "30% align="middle""/>
+<img src = "Images/Example_1.png" width="30%" height="30%" align="middle"/>
+<img src = "Images/Example_2.gif" width="30%" height="30%" align="middle"/>
 
 
 ## Features:
@@ -15,7 +15,7 @@
 * Built on top of MKMapView
 * Built-in caching for better performance
 * Built-in operation cancellation for better UX (ex. reusable objects)
-* Compatible with iOS 7, 8 and 9
+* Compatible with iOS 8, 9, 10
 
 ## Installation
 

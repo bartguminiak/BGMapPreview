@@ -8,41 +8,22 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 		<key>BGMapPreview.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-		</dict>
-		<key>Expecta+Snapshots.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Expecta.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>FBSnapshotTestCase.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-BGMapPreview_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-		</dict>
-		<key>Pods-BGMapPreview_Tests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Specta.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -53,6 +34,11 @@
 			<true/>
 		</dict>
 		<key>1E1609C53E36FE72B521946DF2FE60C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2805F1B5FC5B4B24CD8435BD152F39F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,6 +58,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A52704C83A4C8FDC7E7B38A88BBAA0E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B95EE763F290A6002D5957C18106DA17</key>
 		<dict>
 			<key>primary</key>
@@ -83,6 +74,16 @@
 			<true/>
 		</dict>
 		<key>CA0E2DCE8203433885D6ED9FEB91A57E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDD5A6A5862FC95B72CE87A53382A81C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D78922FF91E2C8B904BD87163D111EB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
