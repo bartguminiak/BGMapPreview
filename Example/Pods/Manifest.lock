@@ -1,5 +1,5 @@
 PODS:
-  - BGMapPreview (1.1.6)
+  - BGMapPreview (1.1.7)
 
 DEPENDENCIES:
   - BGMapPreview (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BGMapPreview: be393449ddc0205787efc111c500cfed444ac3e8
+  BGMapPreview: 2942d6064a03c2c747f00bb68e002d3086bd8d5c
 
 PODFILE CHECKSUM: 003c1101aebf4126cde11208d8c09762a3f8bebf
 

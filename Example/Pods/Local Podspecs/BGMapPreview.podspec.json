@@ -1,6 +1,6 @@
 {
   "name": "BGMapPreview",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "summary": "BGMapPreview is a category on UIImageView for iOS to create and set map preview image asynchronously.",
   "homepage": "https://github.com/bartguminiak/BGMapPreview",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/bartguminiak/BGMapPreview.git",
-    "tag": "1.1.6"
+    "tag": "1.1.7"
   },
   "platforms": {
     "ios": "8.0"
