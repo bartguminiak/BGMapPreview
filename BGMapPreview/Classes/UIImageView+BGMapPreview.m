@@ -28,6 +28,10 @@
 
 - (void)setPreviewWithLocationDescriptors:(NSArray *)descriptors placeholder:(UIImage *)placeholder imageSize:(CGSize)imageSize
 {
+    if (CGSizeEqualToSize(imageSize, CGSizeZero)) {
+        [NSException raise:@"BGMapPreview_ImageSizeIsZero" format:@"BGMapPreview - imageSize cannot be .zero!\nIf you use autolayout, specify the size using proper methods.\nFor ObjC: - (void)setPreviewWithLocationDescriptors:(NSArray *)descriptors placeholder:(UIImage *)placeholder imageSize:(CGSize)imageSize\nFor Swift: func setPreviewWithLocationDescriptors(_ descriptors: [Any]!, placeholder: UIImage!, imageSize: CGSize)"];
+    }
+    
     [self.previewOperation cancel];
 
     UIImage *cachedImage = [[BGMapPreviewCache sharedInstance] cachedImageForDescriptors:descriptors];
