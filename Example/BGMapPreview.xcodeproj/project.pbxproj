@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2210C850383542F250803E02 /* BGViewControllerExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210C38C2118709357F9C6EC /* BGViewControllerExample1.m */; };
-		2210CAF451D762E71D8EDA72 /* BGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210CEBA6B8D60E47E6580E1 /* BGAppDelegate.m */; };
-		2210CB1ADE7576FE64A54AD2 /* BGMapPreviewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210CA163D941805E3BFEF1E /* BGMapPreviewCellTableViewCell.m */; };
-		2210CD943148A62ECE21FDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2210C4CBEA02524F89C928D5 /* Main.storyboard */; };
-		2210CEAECF57B20CB39C436E /* BGViewControllerExample2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210C0DEB9A61221E43CBF3A /* BGViewControllerExample2.m */; };
+		54B057A6FE82D21CFEAF6030 /* Pods_BGMapPreview_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A8D9CF5A969C3181A3109A /* Pods_BGMapPreview_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* BGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BGAppDelegate.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		8958E91717B05D0AAFEDBEC7 /* Pods_BGMapPreview_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08594B2BAC5B6B1AE391BDD /* Pods_BGMapPreview_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		DFDA9C85F8F21BD8876E1AB4 /* Pods_BGMapPreview_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DCCD855BE9A6BB954732B1 /* Pods_BGMapPreview_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		65B8400B38A8D694FE4629A0 /* Pods_BGMapPreview_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C28994A2DC6581DC12BE15 /* Pods_BGMapPreview_Example.framework */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		86A1F94B1ECDF70D0044BC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A1F94A1ECDF70D0044BC0F /* Main.storyboard */; };
+		86A1F9591ECDF7C40044BC0F /* BGViewControllerExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A1F9581ECDF7C40044BC0F /* BGViewControllerExample1.m */; };
+		86A1F95E1ECDF7CA0044BC0F /* BGMapPreviewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A1F95B1ECDF7CA0044BC0F /* BGMapPreviewCellTableViewCell.m */; };
+		86A1F95F1ECDF7CA0044BC0F /* BGViewControllerExample2.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A1F95D1ECDF7CA0044BC0F /* BGViewControllerExample2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,18 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D445989D78FA47F9753C4E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2210C0DEB9A61221E43CBF3A /* BGViewControllerExample2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGViewControllerExample2.m; sourceTree = "<group>"; };
-		2210C2EC8A3665DA3C5433B4 /* BGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGAppDelegate.h; sourceTree = "<group>"; };
-		2210C38C2118709357F9C6EC /* BGViewControllerExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGViewControllerExample1.m; sourceTree = "<group>"; };
-		2210C4CBEA02524F89C928D5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2210C5DA9C4D82B3477E86C6 /* BGViewControllerExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGViewControllerExample1.h; sourceTree = "<group>"; };
-		2210C7F4770B2ECDE48F648D /* BGMapPreviewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMapPreviewCellTableViewCell.h; sourceTree = "<group>"; };
-		2210CA163D941805E3BFEF1E /* BGMapPreviewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMapPreviewCellTableViewCell.m; sourceTree = "<group>"; };
-		2210CEBA6B8D60E47E6580E1 /* BGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGAppDelegate.m; sourceTree = "<group>"; };
-		2210CF05B65ACFC1845ABDF1 /* BGViewControllerExample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGViewControllerExample2.h; sourceTree = "<group>"; };
-		2CFB1AD62BD6AEF865778890 /* Pods-BGMapPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		36C0B41A4192FED547C93212 /* Pods-BGMapPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		07C28994A2DC6581DC12BE15 /* Pods_BGMapPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGMapPreview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A8D9CF5A969C3181A3109A /* Pods_BGMapPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGMapPreview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23638211D8C84D1FBC7B0DC0 /* Pods-BGMapPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BGMapPreview_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGMapPreview_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +50,8 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* BGMapPreview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BGMapPreview-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* BGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* BGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* BGMapPreview_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGMapPreview_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,12 +59,20 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		78092F8C46ADCA41C55B5C4E /* Pods-BGMapPreview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7CDBB1212F9AC6482ADE3098 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A0DCCD855BE9A6BB954732B1 /* Pods_BGMapPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGMapPreview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C08594B2BAC5B6B1AE391BDD /* Pods_BGMapPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGMapPreview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1750154EB2F488A8A60E37 /* BGMapPreview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BGMapPreview.podspec; path = ../BGMapPreview.podspec; sourceTree = "<group>"; };
-		ED31E7E8E4DE3B6A43AA67BA /* Pods-BGMapPreview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71953A534054533C764C401D /* Pods-BGMapPreview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8061448D86E5412D86D68A3B /* Pods-BGMapPreview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80A9FB87E98700A0FA8FE025 /* BGMapPreview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BGMapPreview.podspec; path = ../../BGMapPreview.podspec; sourceTree = "<group>"; };
+		86A1F94A1ECDF70D0044BC0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		86A1F9571ECDF7C40044BC0F /* BGViewControllerExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGViewControllerExample1.h; sourceTree = "<group>"; };
+		86A1F9581ECDF7C40044BC0F /* BGViewControllerExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGViewControllerExample1.m; sourceTree = "<group>"; };
+		86A1F95A1ECDF7CA0044BC0F /* BGMapPreviewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMapPreviewCellTableViewCell.h; sourceTree = "<group>"; };
+		86A1F95B1ECDF7CA0044BC0F /* BGMapPreviewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMapPreviewCellTableViewCell.m; sourceTree = "<group>"; };
+		86A1F95C1ECDF7CA0044BC0F /* BGViewControllerExample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGViewControllerExample2.h; sourceTree = "<group>"; };
+		86A1F95D1ECDF7CA0044BC0F /* BGViewControllerExample2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGViewControllerExample2.m; sourceTree = "<group>"; };
+		C4854791F2A73D01439E74B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		D18B8D15F181500D81E1EBED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		E4D19FCE4B90BF4FE2FC8BF8 /* Pods-BGMapPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGMapPreview_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DFDA9C85F8F21BD8876E1AB4 /* Pods_BGMapPreview_Example.framework in Frameworks */,
+				65B8400B38A8D694FE4629A0 /* Pods_BGMapPreview_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,61 +94,22 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				8958E91717B05D0AAFEDBEC7 /* Pods_BGMapPreview_Tests.framework in Frameworks */,
+				54B057A6FE82D21CFEAF6030 /* Pods_BGMapPreview_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2210C45766D75AE057E1D00D /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				2210CEBA6B8D60E47E6580E1 /* BGAppDelegate.m */,
-				2210C2EC8A3665DA3C5433B4 /* BGAppDelegate.h */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		2210C85844DFF0D5EE4B4AA9 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				2210CD0F54C3B0FF38895207 /* Example2 */,
-				2210CA390436F262B62A6922 /* Example1 */,
-				2210C4CBEA02524F89C928D5 /* Main.storyboard */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		2210CA390436F262B62A6922 /* Example1 */ = {
-			isa = PBXGroup;
-			children = (
-				2210C38C2118709357F9C6EC /* BGViewControllerExample1.m */,
-				2210C5DA9C4D82B3477E86C6 /* BGViewControllerExample1.h */,
-			);
-			path = Example1;
-			sourceTree = "<group>";
-		};
-		2210CD0F54C3B0FF38895207 /* Example2 */ = {
-			isa = PBXGroup;
-			children = (
-				2210C7F4770B2ECDE48F648D /* BGMapPreviewCellTableViewCell.h */,
-				2210C0DEB9A61221E43CBF3A /* BGViewControllerExample2.m */,
-				2210CA163D941805E3BFEF1E /* BGMapPreviewCellTableViewCell.m */,
-				2210CF05B65ACFC1845ABDF1 /* BGViewControllerExample2.h */,
-			);
-			path = Example2;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for BGMapPreview */,
-				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
+				D80D4E4E581102A78F2A5608 /* Pods */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F58B195388D20070C39A /* Products */,
-				F4BAB02E71563E3A04352100 /* Pods */,
+				6003F5B5195388D20070C39A /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,8 +129,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A0DCCD855BE9A6BB954732B1 /* Pods_BGMapPreview_Example.framework */,
-				C08594B2BAC5B6B1AE391BDD /* Pods_BGMapPreview_Tests.framework */,
+				07C28994A2DC6581DC12BE15 /* Pods_BGMapPreview_Example.framework */,
+				14A8D9CF5A969C3181A3109A /* Pods_BGMapPreview_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,31 +138,34 @@
 		6003F593195388D20070C39A /* Example for BGMapPreview */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				86A1F94C1ECDF7200044BC0F /* Example1 */,
+				86A1F94D1ECDF7280044BC0F /* Example2 */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				2210C85844DFF0D5EE4B4AA9 /* UI */,
-				2210C45766D75AE057E1D00D /* Application */,
+				6003F59C195388D20070C39A /* BGAppDelegate.h */,
+				6003F59D195388D20070C39A /* BGAppDelegate.m */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				86A1F94A1ECDF70D0044BC0F /* Main.storyboard */,
 			);
-			name = "Example for BGMapPreview";
-			path = BGMapPreview;
+			path = "Example for BGMapPreview";
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* BGMapPreview-Info.plist */,
+				6003F59B195388D20070C39A /* BGMapPreview-Prefix.pch */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* BGMapPreview-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				6003F5BB195388D20070C39A /* Tests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -207,30 +173,50 @@
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CB1750154EB2F488A8A60E37 /* BGMapPreview.podspec */,
-				1D445989D78FA47F9753C4E3 /* README.md */,
-				7CDBB1212F9AC6482ADE3098 /* LICENSE */,
+				80A9FB87E98700A0FA8FE025 /* BGMapPreview.podspec */,
+				C4854791F2A73D01439E74B7 /* LICENSE */,
+				D18B8D15F181500D81E1EBED /* README.md */,
 			);
-			name = "Podspec Metadata";
+			path = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		F4BAB02E71563E3A04352100 /* Pods */ = {
+		86A1F94C1ECDF7200044BC0F /* Example1 */ = {
 			isa = PBXGroup;
 			children = (
-				ED31E7E8E4DE3B6A43AA67BA /* Pods-BGMapPreview_Example.debug.xcconfig */,
-				78092F8C46ADCA41C55B5C4E /* Pods-BGMapPreview_Example.release.xcconfig */,
-				36C0B41A4192FED547C93212 /* Pods-BGMapPreview_Tests.debug.xcconfig */,
-				2CFB1AD62BD6AEF865778890 /* Pods-BGMapPreview_Tests.release.xcconfig */,
+				86A1F9571ECDF7C40044BC0F /* BGViewControllerExample1.h */,
+				86A1F9581ECDF7C40044BC0F /* BGViewControllerExample1.m */,
+			);
+			path = Example1;
+			sourceTree = "<group>";
+		};
+		86A1F94D1ECDF7280044BC0F /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				86A1F95A1ECDF7CA0044BC0F /* BGMapPreviewCellTableViewCell.h */,
+				86A1F95B1ECDF7CA0044BC0F /* BGMapPreviewCellTableViewCell.m */,
+				86A1F95C1ECDF7CA0044BC0F /* BGViewControllerExample2.h */,
+				86A1F95D1ECDF7CA0044BC0F /* BGViewControllerExample2.m */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		D80D4E4E581102A78F2A5608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8061448D86E5412D86D68A3B /* Pods-BGMapPreview_Example.debug.xcconfig */,
+				71953A534054533C764C401D /* Pods-BGMapPreview_Example.release.xcconfig */,
+				E4D19FCE4B90BF4FE2FC8BF8 /* Pods-BGMapPreview_Tests.debug.xcconfig */,
+				23638211D8C84D1FBC7B0DC0 /* Pods-BGMapPreview_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -242,12 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BGMapPreview_Example" */;
 			buildPhases = (
-				39793168FBEBADD09D25E00D /* Check Pods Manifest.lock */,
+				217B22EF482AC65F1FBCEA87 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				029C1D959DD3832EB1733652 /* Embed Pods Frameworks */,
-				0816D1D87F0621EF82CA6F5E /* Copy Pods Resources */,
+				07DAE2FFBE34F9BE733E586F /* [CP] Embed Pods Frameworks */,
+				9B9C60400A1105E84EC3A031 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,12 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BGMapPreview_Tests" */;
 			buildPhases = (
-				3AF6D5BCFA3108BCA049E58D /* Check Pods Manifest.lock */,
+				621C68405690B703F219960C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				99644160B8CA8CA17EA9DA00 /* Embed Pods Frameworks */,
-				C1451FAC6D1DAC538281669A /* Copy Pods Resources */,
+				9CCCF0C7D7867392B7AD95EE /* [CP] Embed Pods Frameworks */,
+				79C447132D797A3E4D13EA43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,8 +272,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BG;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Bartlomiej Guminiak";
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bartguminiak;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -318,9 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				2210CD943148A62ECE21FDE1 /* Main.storyboard in Resources */,
+				86A1F94B1ECDF70D0044BC0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,14 +322,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		029C1D959DD3832EB1733652 /* Embed Pods Frameworks */ = {
+		07DAE2FFBE34F9BE733E586F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,14 +337,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0816D1D87F0621EF82CA6F5E /* Copy Pods Resources */ = {
+		217B22EF482AC65F1FBCEA87 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		621C68405690B703F219960C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79C447132D797A3E4D13EA43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9C60400A1105E84EC3A031 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,64 +397,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		39793168FBEBADD09D25E00D /* Check Pods Manifest.lock */ = {
+		9CCCF0C7D7867392B7AD95EE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3AF6D5BCFA3108BCA049E58D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		99644160B8CA8CA17EA9DA00 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C1451FAC6D1DAC538281669A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -432,11 +419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A1F9591ECDF7C40044BC0F /* BGViewControllerExample1.m in Sources */,
+				86A1F95F1ECDF7CA0044BC0F /* BGViewControllerExample2.m in Sources */,
+				6003F59E195388D20070C39A /* BGAppDelegate.m in Sources */,
+				86A1F95E1ECDF7CA0044BC0F /* BGMapPreviewCellTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				2210CEAECF57B20CB39C436E /* BGViewControllerExample2.m in Sources */,
-				2210CB1ADE7576FE64A54AD2 /* BGMapPreviewCellTableViewCell.m in Sources */,
-				2210C850383542F250803E02 /* BGViewControllerExample1.m in Sources */,
-				2210CAF451D762E71D8EDA72 /* BGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +452,7 @@
 				6003F597195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			path = .;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -473,6 +461,16 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -496,6 +494,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -510,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -543,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -552,14 +551,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED31E7E8E4DE3B6A43AA67BA /* Pods-BGMapPreview_Example.debug.xcconfig */;
+			baseConfigurationReference = 8061448D86E5412D86D68A3B /* Pods-BGMapPreview_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BGMapPreview/BGMapPreview-Prefix.pch";
-				INFOPLIST_FILE = "BGMapPreview/BGMapPreview-Info.plist";
+				GCC_PREFIX_HEADER = "Example for BGMapPreview/Supporting Files/BGMapPreview-Prefix.pch";
+				INFOPLIST_FILE = "Example for BGMapPreview/Supporting Files/BGMapPreview-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -567,14 +566,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78092F8C46ADCA41C55B5C4E /* Pods-BGMapPreview_Example.release.xcconfig */;
+			baseConfigurationReference = 71953A534054533C764C401D /* Pods-BGMapPreview_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BGMapPreview/BGMapPreview-Prefix.pch";
-				INFOPLIST_FILE = "BGMapPreview/BGMapPreview-Info.plist";
+				GCC_PREFIX_HEADER = "Example for BGMapPreview/Supporting Files/BGMapPreview-Prefix.pch";
+				INFOPLIST_FILE = "Example for BGMapPreview/Supporting Files/BGMapPreview-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -582,7 +581,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36C0B41A4192FED547C93212 /* Pods-BGMapPreview_Tests.debug.xcconfig */;
+			baseConfigurationReference = E4D19FCE4B90BF4FE2FC8BF8 /* Pods-BGMapPreview_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -591,12 +590,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "Tests/Supporting Files/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INFOPLIST_FILE = "Tests/Supporting Files/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGMapPreview_Example.app/BGMapPreview_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -605,7 +605,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CFB1AD62BD6AEF865778890 /* Pods-BGMapPreview_Tests.release.xcconfig */;
+			baseConfigurationReference = 23638211D8C84D1FBC7B0DC0 /* Pods-BGMapPreview_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -614,8 +614,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Tests/Supporting Files/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Supporting Files/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGMapPreview_Example.app/BGMapPreview_Example";
 				WRAPPER_EXTENSION = xctest;

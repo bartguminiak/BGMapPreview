@@ -6,8 +6,8 @@
 
 ## BGMapPreview is a category on UIImageView for iOS to create and set map preview image asynchronously.
 
-<img src = "Images/Example_1.png" width = "30%" height = "30% align="middle""/>
-<img src = "Images/Example_2.gif" width = "30%" height = "30% align="middle""/>
+<img src = "Images/Example_1.png" width="30%" height="30%" align="middle"/>
+<img src = "Images/Example_2.gif" width="30%" height="30%" align="middle"/>
 
 
 ## Features:
@@ -15,7 +15,7 @@
 * Built on top of MKMapView
 * Built-in caching for better performance
 * Built-in operation cancellation for better UX (ex. reusable objects)
-* Compatible with iOS 7, 8 and 9
+* Compatible with iOS 8, 9, 10
 
 ## Installation
 
@@ -34,7 +34,7 @@ pod "BGMapPreview"
 ```objective-c
 BGLocationDescriptor *locationDescriptor = [BGLocationDescriptor new];
 locationDescriptor.location = [[CLLocation alloc] initWithLatitude:51.5057879f 
-                                                         longitude:-0.0887631f];
+longitude:-0.0887631f];
 
 UIImageView *annotationView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 32.f, 32.f)];
 annotationView.image = [UIImage imageNamed:@"pin1"];
@@ -57,13 +57,13 @@ locationDescriptor.annotationView = annotationView;
 * Provide *placeholder* image for the time map preview is being created.
 ```objective-c
 - (void)setPreviewWithLocationDescriptors:(NSArray *)descriptors
-                              placeholder:(UIImage *)placeholder;
+placeholder:(UIImage *)placeholder;
 ```
 * If you use *autolayout* and your image view size is not final at the moment you start map preview creation, pass in *imageSize* parameter to explicitly define its size.
 ```objective-c
 - (void)setPreviewWithLocationDescriptors:(NSArray *)descriptors
-                              placeholder:(UIImage *)placeholder
-                                imageSize:(CGSize)imageSize;
+placeholder:(UIImage *)placeholder
+imageSize:(CGSize)imageSize;
 ```
 * Configure location descriptor for *anchor point* depend on your annotation view. By default it is horizontally centered and vertically bottom.
 
