@@ -28,10 +28,32 @@ pod "BGMapPreview"
 
 ## How To Set Map Preview with Single Pin?
 
-1) ``` #import <BGMapPreview/UIImageView+BGMapPreview.h> ```
+1) Import
+
+```swift 
+// Swift
+import BGMapPreview 
+```
+
+```objective-c 
+// Objective-C
+#import <BGMapPreview/UIImageView+BGMapPreview.h> 
+```
 
 2) Initialize and configure object of BGLocationDescriptor class.
+
+```swift
+// Swift
+let locationDescriptor = BGLocationDescriptor()
+locationDescriptor.location = CLLocation(latitude: 51.5057879, longitude: -0.0887631)
+
+let annotationView = UIImageView(frame: CGRect(x: 0, y: 0, width: 32, height: 32))
+annotationView.image = #imageLiteral(resourceName: "pin1")
+locationDescriptor.annotationView = annotationView
+```
+
 ```objective-c
+// Objective-C
 BGLocationDescriptor *locationDescriptor = [BGLocationDescriptor new];
 locationDescriptor.location = [[CLLocation alloc] initWithLatitude:51.5057879f 
 longitude:-0.0887631f];
@@ -42,29 +64,60 @@ locationDescriptor.annotationView = annotationView;
 ``` 
 
 3) Execute map preview.
+
+```swift
+// Swift
+imageView.setPreviewWith(locationDescriptor)
+```
+
 ```objective-c
+// Objective-C
 [self.imageView setPreviewWithLocationDescriptor:locationDescriptor]
 ```
+
 <img src = "Images/mapPreviewExample1.png" align="middle"/>
 
 ## More Options
 
 * Pass in an *array* of location descriptors to get map preview with multiple locations. The final image will consider all points to provide best possible output.
+
+```swift
+// Swift
+func setPreviewWithLocationDescriptors(_ descriptors: [Any]!)
+```
+
 ```objective-c
+// Objective-C
 - (void)setPreviewWithLocationDescriptors:(NSArray *)descriptors;
 ```
 
 * Provide *placeholder* image for the time map preview is being created.
+
+```swift
+// Swift
+func setPreviewWithLocationDescriptors(_ descriptors: [Any]!, placeholder: UIImage!)
+```
+
 ```objective-c
+// Objective-C
 - (void)setPreviewWithLocationDescriptors:(NSArray *)descriptors
 placeholder:(UIImage *)placeholder;
 ```
+
 * If you use *autolayout* and your image view size is not final at the moment you start map preview creation, pass in *imageSize* parameter to explicitly define its size.
+
+```swift
+// Swift
+func setPreviewWithLocationDescriptors(_ descriptors: [Any]!, placeholder: UIImage!, imageSize: CGSize)
+```
+
 ```objective-c
+// Objective-C
 - (void)setPreviewWithLocationDescriptors:(NSArray *)descriptors
 placeholder:(UIImage *)placeholder
 imageSize:(CGSize)imageSize;
 ```
+
 * Configure location descriptor for *anchor point* depend on your annotation view. By default it is horizontally centered and vertically bottom.
 
 * Subclass BGLocationDescriptor and override - (void)keyCache to provide *tailor-made map preview caching*. By default it creates cache key based on locations.
