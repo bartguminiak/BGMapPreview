@@ -13,9 +13,8 @@
 ## Features:
 * Creates customized map previews within a few lines of code
 * Built on top of MKMapView
-* Built-in caching for better performance
-* Built-in operation cancellation for better UX (ex. reusable objects)
-* Compatible with iOS 8, 9, 10
+* Built-in caching and operation cancellation for better performance
+* Compatible with iOS 8, 9, 10, 11, 12
 
 ## Installation
 
