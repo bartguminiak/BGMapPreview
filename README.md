@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/47eb66cc-42af-4b88-a9ff-499775bf7b34)](https://codebeat.co/projects/github-com-bartguminiak-bgmappreview-master)
+
 # BGMapPreview for iOS
 
 [![Version](https://img.shields.io/cocoapods/v/BGMapPreview.svg?style=flat)](http://cocoapods.org/pods/BGMapPreview)
