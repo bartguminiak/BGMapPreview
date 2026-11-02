@@ -58,13 +58,13 @@
 		00C9FFC64F21BC7C7714E07E3704E4A7 /* BGLocationDescriptor+BGAnnotationOffsetCalculation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGLocationDescriptor+BGAnnotationOffsetCalculation.m"; sourceTree = "<group>"; };
 		0C9CAC7170398D3CA4B2E90030C6D65B /* MKMapView+BGCreation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+BGCreation.m"; sourceTree = "<group>"; };
 		0EDB345D137598EEBAB5AA2914396B93 /* BGLocationDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BGLocationDescriptor.h; sourceTree = "<group>"; };
-		1A2C43600EB8F64315ED2CC308B3A4E5 /* BGMapPreview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BGMapPreview.framework; path = BGMapPreview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A7597D18FFDE810D7742315E84CD4FF /* Pods-BGMapPreview_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BGMapPreview_Example.modulemap"; sourceTree = "<group>"; };
+		1A2C43600EB8F64315ED2CC308B3A4E5 /* BGMapPreview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BGMapPreview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7597D18FFDE810D7742315E84CD4FF /* Pods-BGMapPreview_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BGMapPreview_Example.modulemap"; sourceTree = "<group>"; };
 		1CC8612A7A0F7B543B822742B19E773B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20BE0E912E7355020B780B4B02B0B26F /* Pods-BGMapPreview_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BGMapPreview_Tests-dummy.m"; sourceTree = "<group>"; };
 		270E60D5D0606F45C187AB0BF7654BA5 /* UIImageView+BGOperationStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BGOperationStorage.m"; sourceTree = "<group>"; };
 		2845C1A814E4C20DABD9D9FAA128D2B9 /* Pods-BGMapPreview_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BGMapPreview_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C564D2DD440018187E49C07C2541501 /* Pods_BGMapPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BGMapPreview_Tests.framework; path = "Pods-BGMapPreview_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C564D2DD440018187E49C07C2541501 /* Pods_BGMapPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGMapPreview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9E0CBCC57763D62CC4ED54F6C10414 /* Pods-BGMapPreview_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGMapPreview_Tests-resources.sh"; sourceTree = "<group>"; };
 		378F4CF12EC95DD049AAD5119307B468 /* BGLocationDescriptor+BGAnnotationAdjustment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGLocationDescriptor+BGAnnotationAdjustment.m"; sourceTree = "<group>"; };
 		3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -78,7 +78,7 @@
 		5AA840CB374C03E1173B7E07AD580BA3 /* MKMapView+BGImageSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+BGImageSnapshot.m"; sourceTree = "<group>"; };
 		5B683E3DD56D0213682C4867EC3E59AB /* BGMapPreviewCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BGMapPreviewCache.m; sourceTree = "<group>"; };
 		5B6AE947212EC8F42E1453A9CEF75991 /* BGMapPreviewCache+DescriptorCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGMapPreviewCache+DescriptorCache.h"; sourceTree = "<group>"; };
-		646579F1D64FFA74A09E0CB9BBE653B2 /* Pods-BGMapPreview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BGMapPreview_Tests.modulemap"; sourceTree = "<group>"; };
+		646579F1D64FFA74A09E0CB9BBE653B2 /* Pods-BGMapPreview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BGMapPreview_Tests.modulemap"; sourceTree = "<group>"; };
 		6DC2900BFEAAF5661819B1A2F3C77E0E /* Pods-BGMapPreview_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BGMapPreview_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6ED8ADBF1AAD938F657DE81EBF9B82D7 /* Pods-BGMapPreview_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGMapPreview_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7B9B8ADEC835156CF680322D326EE790 /* BGLocationDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BGLocationDescriptor.m; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		8C61F5DAB49D59743A61B1570398F106 /* BGMapPreview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGMapPreview-umbrella.h"; sourceTree = "<group>"; };
 		8FA5B5396A26B934507C3B45F5144645 /* BGMapPreview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGMapPreview-prefix.pch"; sourceTree = "<group>"; };
 		8FB61F322CE31F610DC1BB5BB610137E /* Pods-BGMapPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGMapPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94ED1781E3D88FB5B5404700FF221332 /* BGMapPreview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BGMapPreview.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94ED1781E3D88FB5B5404700FF221332 /* BGMapPreview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BGMapPreview.modulemap; sourceTree = "<group>"; };
 		A23E1C4CBF033DFF687ECF72FE56BE52 /* BGLocationDescriptor+BGAnnotationOffset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGLocationDescriptor+BGAnnotationOffset.h"; sourceTree = "<group>"; };
 		A85F53CBAF9194A094509C4569A185FC /* BGMapPreviewCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BGMapPreviewCache.h; sourceTree = "<group>"; };
 		AAE245FCDED7AA000D620C8729BA8641 /* BGPreviewOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BGPreviewOperation.h; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		E2ACA9F74759B3FD2AA2BFA10366E25F /* Pods-BGMapPreview_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BGMapPreview_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E328FA763D6E7B31B2EADAB61794C4FB /* Pods-BGMapPreview_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGMapPreview_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E3A872E53DF3B34568F1503D4463C3F1 /* BGMapPreview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BGMapPreview.xcconfig; sourceTree = "<group>"; };
-		E73B2A05936E0F9E71F3E9DC62EE8839 /* Pods_BGMapPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BGMapPreview_Example.framework; path = "Pods-BGMapPreview_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73B2A05936E0F9E71F3E9DC62EE8839 /* Pods_BGMapPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGMapPreview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E790B4C4B6A9539B3B47E2B988887988 /* Pods-BGMapPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGMapPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA8931239E9E40DDD7D446064AC6A615 /* BGMapPreview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGMapPreview-dummy.m"; sourceTree = "<group>"; };
 		F1E9BEEECA4817D96278F643D2E34734 /* MKMapView+BGImageSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKMapView+BGImageSnapshot.h"; sourceTree = "<group>"; };
@@ -157,7 +157,6 @@
 			children = (
 				A7FFD4CB8148F90C72CA9869E162F46E /* Classes */,
 			);
-			name = BGMapPreview;
 			path = BGMapPreview;
 			sourceTree = "<group>";
 		};
@@ -257,7 +256,6 @@
 				B09A814B49D27B82A3B726E56E487C4C /* UIView+BGImageSnapshot.h */,
 				E038F3F3400E1191A3D129D5EAC520C5 /* UIView+BGImageSnapshot.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -409,6 +407,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -490,7 +489,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-BGMapPreview_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example.modulemap";
@@ -526,7 +525,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-BGMapPreview_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests.modulemap";
@@ -562,7 +561,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-BGMapPreview_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BGMapPreview_Tests/Pods-BGMapPreview_Tests.modulemap";
@@ -691,7 +690,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BGMapPreview/BGMapPreview-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BGMapPreview/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BGMapPreview/BGMapPreview.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -722,7 +721,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-BGMapPreview_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BGMapPreview_Example/Pods-BGMapPreview_Example.modulemap";
@@ -759,7 +758,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BGMapPreview/BGMapPreview-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BGMapPreview/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BGMapPreview/BGMapPreview.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
